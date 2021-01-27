@@ -1,0 +1,126 @@
+Circuit: * C:\Users\RJ\Documents\LTspiceXVII\gate_test1.asc
+
+Warning: Multiple definitions of model "cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "cd4007" Type: Mos1
+Warning: Multiple definitions of model "xor:inverter3:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "xor:inverter3:cd4007" Type: Mos1
+Warning: Multiple definitions of model "xor:and:invert:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "xor:and:invert:cd4007" Type: Mos1
+Warning: Multiple definitions of model "xor:or2:invert:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "xor:or2:invert:cd4007" Type: Mos1
+Warning: Multiple definitions of model "xor:or1:invert:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "xor:or1:invert:cd4007" Type: Mos1
+Warning: Multiple definitions of model "xor:inverter2:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "xor:inverter2:cd4007" Type: Mos1
+Warning: Multiple definitions of model "xor:inverter1:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "xor:inverter1:cd4007" Type: Mos1
+Warning: Multiple definitions of model "or:invert:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "or:invert:cd4007" Type: Mos1
+Warning: Multiple definitions of model "inverter:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "inverter:cd4007" Type: Mos1
+Warning: Multiple definitions of model "and:invert:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "and:invert:cd4007" Type: Mos1
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+Changing Tseed to 7.8125e-010
+Changing Tseed to 7.8125e-012
+Changing Tseed to 7.8125e-009
+Changing Tseed to 7.8125e-013
+
+Date: Sat Jan 23 18:35:16 2021
+Total elapsed time: 0.759 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 15543
+traniter = 15523
+tranpoints = 4540
+accept = 3595
+rejected = 941
+matrix size = 29
+fillins = 0
+solver = Normal
+Thread vector: 94.6/25.2[3] 43.9/32.0[3] 1.7/5.4[1] 0.7/5.6[1]  2592/500
+Matrix Compiler1: 2.04 KB object code size  5.3/1.5/[1.2]
+Matrix Compiler2: 3.35 KB object code size  2.0/4.0/[1.2]
+

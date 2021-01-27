@@ -1,0 +1,65 @@
+Circuit: * C:\Users\RJ\Documents\LTspiceXVII\gate_debug.asc
+
+Warning: Multiple definitions of model "cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x2:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x2:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x1:x3:inverter:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x1:x3:inverter:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x1:x1:inverter:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x1:x1:inverter:cd4007" Type: Mos1
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+Changing Tseed to 1e-012
+Changing Tseed to 1e-014
+Changing Tseed to 1e-011
+Changing Tseed to 1e-015
+
+Date: Tue Jan 26 11:28:52 2021
+Total elapsed time: 0.177 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 5467
+traniter = 5452
+tranpoints = 1822
+accept = 1659
+rejected = 159
+matrix size = 15
+fillins = 0
+solver = Normal
+Matrix Compiler1: 936 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 1.55 KB object code size  0.2/0.2/[0.1]
+
