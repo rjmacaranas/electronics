@@ -1,0 +1,52 @@
+* C:\Users\RJ\Documents\LTspiceXVII\fa_sum.asc
+XHA_sum1 A B N001 Vdd ha_sum
+XHA_sum2 N001 Cin Sum Vdd ha_sum
+
+* block symbol definitions
+.subckt ha_sum A B Sum Vdd
+XXOR A B Vdd Sum my_xor
+.ends ha_sum
+
+.subckt my_xor A B Vdd Vout
+XX1 A B Vdd N001 my_or
+XX2 A B N002 Vdd my_nand
+XX3 N001 N002 Vout Vdd my_and
+.ends my_xor
+
+.subckt my_or A B Vdd Vout
+XNOR A B N001 Vdd my_nor
+XInverter N001 Vdd Vout my_inverter
+.ends my_or
+
+.subckt my_nand A B Vout Vdd
+M1 Vout A Vdd Vdd CMOSP_0.5
+M2 Vout B Vdd Vdd CMOSP_0.5
+M3 Vout A N001 N001 NMOS
+M4 N001 B 0 0 NMOS
+.ends my_nand
+
+.subckt my_and A B Vout Vdd
+XNAND A B N001 Vdd my_nand
+XInverter N001 Vdd Vout my_inverter
+.ends my_and
+
+.subckt my_nor A B Vout Vdd
+M1 Vout A 0 0 CMOSN_0.5
+M2 Vout B 0 0 CMOSN_0.5
+M4 N001 A Vdd Vdd CMOSP_0.5
+M3 Vout B N001 N001 PMOS
+.ends my_nor
+
+.subckt my_inverter Vin Vdd Vout
+M1 Vout Vin Vdd Vdd CMOSP_0.5
+M2 Vout Vin 0 0 CMOSN_0.5
+.lib C:\Users\RJ\Documents\LTspiceXVII\DetailedModel.mod
+.ends my_inverter
+
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\RJ\Documents\LTspiceXVII\lib\cmp\standard.mos
+* FA summing circuit
+.inc C:\Users\RJ\Documents\LTspiceXVII\fa_sum_test.txt
+.backanno
+.end
