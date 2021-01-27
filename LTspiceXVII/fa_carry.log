@@ -1,0 +1,161 @@
+Circuit: * C:\Users\RJ\Documents\LTspiceXVII\fa_carry.asc
+
+Warning: Multiple definitions of model "cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "cd4007" Type: Mos1
+Warning: Multiple definitions of model "inverter4:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "inverter4:cd4007" Type: Mos1
+Warning: Multiple definitions of model "ha_sum2:xor:x3:inverter:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "ha_sum2:xor:x3:inverter:cd4007" Type: Mos1
+Warning: Multiple definitions of model "ha_sum2:xor:x1:inverter:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "ha_sum2:xor:x1:inverter:cd4007" Type: Mos1
+Warning: Multiple definitions of model "ha_sum1:xor:x3:inverter:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "ha_sum1:xor:x3:inverter:cd4007" Type: Mos1
+Warning: Multiple definitions of model "ha_sum1:xor:x1:inverter:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "ha_sum1:xor:x1:inverter:cd4007" Type: Mos1
+Warning: Multiple definitions of model "or3:inverter:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "or3:inverter:cd4007" Type: Mos1
+Warning: Multiple definitions of model "or2:inverter:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "or2:inverter:cd4007" Type: Mos1
+Warning: Multiple definitions of model "or1:inverter:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "or1:inverter:cd4007" Type: Mos1
+Warning: Multiple definitions of model "inverter3:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "inverter3:cd4007" Type: Mos1
+Warning: Multiple definitions of model "inverter2:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "inverter2:cd4007" Type: Mos1
+Warning: Multiple definitions of model "inverter1:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "inverter1:cd4007" Type: Mos1
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Wed Jan 27 11:08:58 2021
+Total elapsed time: 0.552 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 12990
+traniter = 12583
+tranpoints = 3686
+accept = 2941
+rejected = 745
+matrix size = 37
+fillins = 44
+solver = Normal
+Thread vector: 31.8/24.8[4] 5.7/6.5[1] 3.1/2.5[3] 0.2/2.5[1]  2592/500
+Matrix Compiler1: 6.61 KB object code size  1.1/0.6/[0.4]
+Matrix Compiler2: 5.02 KB object code size  0.6/0.8/[0.4]
+
