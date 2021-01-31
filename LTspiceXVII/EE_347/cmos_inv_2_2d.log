@@ -1,0 +1,27 @@
+Circuit: * C:\Users\RJ\Documents\LTspiceXVII\EE_347\cmos_inv_2_2d.asc
+
+Model "nmod1": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "mn": Length shorter than recommended for a level 1 MOSFET.
+Instance "mn": Width narrower than recommended for a level 1 MOSFET.
+Model "pmod1": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "mp": Length shorter than recommended for a level 1 MOSFET.
+Instance "mp": Width narrower than recommended for a level 1 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Jan 31 10:24:22 2021
+Total elapsed time: 0.079 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3049
+traniter = 3045
+tranpoints = 1515
+accept = 1434
+rejected = 81
+matrix size = 9
+fillins = 0
+solver = Normal
+Matrix Compiler1: 386 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 773 bytes object code size  0.1/0.1/[0.1]
+

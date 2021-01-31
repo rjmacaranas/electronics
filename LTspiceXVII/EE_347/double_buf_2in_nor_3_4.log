@@ -1,0 +1,35 @@
+Circuit: * C:\Users\RJ\Documents\LTspiceXVII\EE_347\double_buf_2in_nor_3_4.asc
+
+Model "pmod1": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "m2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m1": Length shorter than recommended for a level 1 MOSFET.
+Model "pmod3": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "m8": Length shorter than recommended for a level 1 MOSFET.
+Model "pmod2": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "m7": Length shorter than recommended for a level 1 MOSFET.
+Model "nmod3": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "m6": Length shorter than recommended for a level 1 MOSFET.
+Model "nmod2": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "m5": Length shorter than recommended for a level 1 MOSFET.
+Model "nmod1": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "m4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m3": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Jan 30 18:54:34 2021
+Total elapsed time: 0.113 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3939
+traniter = 3925
+tranpoints = 1740
+accept = 1594
+rejected = 146
+matrix size = 26
+fillins = 4
+solver = Normal
+Matrix Compiler1:     116 opcodes  0.3/[0.2]/0.6
+Matrix Compiler2: 2.62 KB object code size  0.2/0.8/[0.2]
+

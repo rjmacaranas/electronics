@@ -835,3 +835,4 @@
 .model 1SS380VM D(Is=1.417p N=1.414 Rs=109.5m Ikf=31.6m Cjo=2.85p M=268.4m Vj=390.5m Isr=2.511p Nr=4.3 Bv=80 tt=302.1n Iave=0.1 Vpk=40 mfg=Rohm type=Switching)
 .model UMN20N D(Is=630.7f N=1.321 Rs=349.1m Ikf=22.81m Cjo=2.21p M=366.9m Vj=803.7m Isr=4.052p Nr=2.5 Bv=80 tt=310n Iave=0.1 Vpk=80 mfg=Rohm type=Switching)
 .model XP-E2-WHT D(IS=5.01824E-16 N=3.36413016 RS=0.244130334 XTI=40.92995615 IKF=0 EG=2.5000 mfg=CREE)
+.model CMDSH-4E D(Is=82.9n Rs=2.02 N=1.04 Cjo=12.802p M=.47462 Eg=0.69 Xti=2 Iave=200m Vpk=40 mfg=Central type=Schottky)

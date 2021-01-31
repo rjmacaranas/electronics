@@ -7850,12 +7850,14 @@ EG2 47 50 POLY(1) (30,98) 3.610E-01 1
 *
 **************************************************************************************
 *
+
+* Copyright (c) 1998-2021 Analog Devices, Inc.  All rights reserved.
 *
 .subckt ADA4522-1 1 2 3 4 5
 D6 4 1 DX
 Ccm1 1 4 35p Rser=100 noiseless
 Cdm 1 2 7p Rser=200 noiseless
-CF N007 N009 7.1p Rser=25k noiseless
+CF N007 N009 7.1p Rser=15k noiseless
 M5 5 N006 3 3 POXN temp=27
 M6 5 N012 4 4 NOXN temp=27
 R4 N010 0 48 noiseless
@@ -7874,9 +7876,9 @@ B1 0 N004 I=10u*dnlim(uplim(V(1),V(3)-1.4,.1), V(4)-.2, .1)+1n*V(1) + 2.93p
 B2 N004 0 I=10u*dnlim(uplim(V(2),V(3)-1.39,.1), V(4)-.21, .1)+1n*V(2)
 C1 N004 0 .01f Rpar=100K noiseless
 C2 3 N006 15f Rser=3 Rpar=100Meg noiseless
-A1 0 N007 3 3 3 3 N006 3 OTA g=300n linear ref=-33.8m vlow=-2.2 vhigh=0
+A1 0 N007 3 3 3 3 N006 3 OTA g=10u linear ref=-33.8m vlow=-2.2 vhigh=0
 C5 N012 4 15f Rser=3 Rpar=100Meg noiseless
-A3 0 N007 4 4 4 4 N012 4 OTA g=300n linear ref=33.8m vlow=0 vhigh=1.7
+A3 0 N007 4 4 4 4 N012 4 OTA g=10u linear ref=33.8m vlow=0 vhigh=1.7
 D1 N007 0 DANTISAT
 A5 N005 0 0 0 0 0 N007 0 OTA g=120u asym isource=6.43u isink=-12.7u vlow=-1e308 vhigh=1e308
 L1 N009 0 500n Rser=10 noiseless
@@ -7903,7 +7905,6 @@ A6 0 1 0 0 0 0 0 0 OTA g=0 in=.66p*((1+MIN(freq,4k)/15k)**3)/((MAX(freq,5k)/5k)*
 .model DANTISAT D(Ron=1k Roff=30Meg vfwd=1 epsilon=100m vrev=600m revepsilon=100m noiseless)
 .model DBIAS D(Ron=100Meg Roff=1T vfwd=600m epsilon=500m ilimit=100p noiseless)
 .ends ADA4522-1
-*
 *
 *
 .subckt ADA4522 1 2 3 4 5

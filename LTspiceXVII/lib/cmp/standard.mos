@@ -1063,3 +1063,5 @@
 .model IPT015N10N5 VDMOS(Rg=1.4 Vto=3.8 Rd=500u Rs=600u Rb=400u Mtriode=1.6 Kp=480 ksubthres=100m Lambda=.07 Cgdmin=1p Cgdmax=4n A=.5 Cgs=12n Cjo=9n M=.4 Is=60p VJ=.5 N=1.1 mfg=Infineon Vds=100 Ron=1.3m Qg=169n)
 .model PSMN3R7-100BSE VDMOS(Rg=1 Mtriode=1.53 Vto=3.6 ksubthres=80m theta=.01 Rd=.1m Rs=.1m Rb=.9m Kp=35 Lambda=.01 Cgdmin=120p Cgdmax=5n A=.5 Cgs=10n Cjo=5n M=0.45 Is=5p VJ=0.25 mfg=NXP Vds=100 Ron=3.36m Qg=176n)
 .model IRLML6402 VDMOS (pchan Vto=-0.55 Kp=12.79 Lambda=11.14m BV=20 IBV=0.25m Rd=0.1m Rs=24.67m Rg=29.22 Rb=0 Cjo=112p Cgs=520p Cgdmin=100p Cgdmax=140p Is=20.3n N=1.5 Vj=0.5 M=0.3 mfg=Infineon Vds=-20 Ron=65m Qg=8n)
+.model BSC022N04LS6 VDMOS(Rg=1.2 Vto=2.38 Rd=1.21m Rs=327u Rb=641u Kp=519.3 Lambda=0.09 Cgdmin=16p Cgdmax=0.39n A=0.6 Cgs=1.94n Cjo=0.76n M=0.68 Is=12.1p VJ=2.5 N=1.04 TT=3n ksubthres=.1 mfg=infineon Vds=40 Ron=2.2m Qg=28n)
+.model BSC059N04LS6 VDMOS(Rg=2.2 Vto=2.38 Rd=3.64m Rs=252u Rb=1.28m Kp=171 Lambda=0.09 Cgdmin=10p Cgdmax=0.12n A=0.6 Cgs=0.64n Cjo=0.25n M=0.68 Is=4p VJ=2.5 N=1.04 TT=3n ksubthres=.1 mfg=infineon Vds=40 Ron=5.9m Qg=4.6n)
