@@ -1,0 +1,31 @@
+Circuit: * C:\Users\RJ\Documents\LTspiceXVII\EE_347\nmos_2t1_buf_mux.asc
+
+Warning: Multiple definitions of model "cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "cd4007" Type: Mos1
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Feb 07 14:23:38 2021
+Total elapsed time: 0.130 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4415
+traniter = 4402
+tranpoints = 1859
+accept = 1679
+rejected = 180
+matrix size = 13
+fillins = 0
+solver = Normal
+Matrix Compiler1: 594 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 1.11 KB object code size  0.1/0.2/[0.1]
+

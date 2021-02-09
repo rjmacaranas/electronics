@@ -1,0 +1,4 @@
+V_A A 0 PULSE(0 5 0 10n 10n 1m 2m)
+V_B B 0 PULSE(0 5 0 10n 10n 2m 4m)
+V_SEL SEL 0 PULSE(0 5 0 10n 10n 4m 8m)
+Vdd Vdd 0 5

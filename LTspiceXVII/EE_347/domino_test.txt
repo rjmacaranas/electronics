@@ -1,0 +1,6 @@
+V_A A 0 PULSE(0 5 0 10n 10n 1m 2m)
+V_B B 0 PULSE(0 5 0 10n 10n 1m 3m)
+V_C C 0 PULSE(0 5 1m 10n 10n 2m 4m)
+V_D D 0 PULSE(0 5 1m 10n 10n 1m 2m)
+V_P P 0 PULSE(0 5 0 10n 10n 1m 2m)
+V_DD Vdd 0 5

@@ -1,0 +1,27 @@
+Circuit: * C:\Users\RJ\Documents\LTspiceXVII\EE_347\bicmos_inv_3_6.asc
+
+Model "pmod1": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "m2": Length shorter than recommended for a level 1 MOSFET.
+Model "nmod1": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "m4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m1": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+Date: Mon Feb 01 13:06:55 2021
+Total elapsed time: 0.121 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3095
+traniter = 3069
+tranpoints = 1412
+accept = 1340
+rejected = 72
+matrix size = 15
+fillins = 2
+solver = Normal
+Matrix Compiler1: 1.13 KB object code size  0.2/0.1/[0.1]
+Matrix Compiler2: off  [0.2]/0.2/0.2
+
