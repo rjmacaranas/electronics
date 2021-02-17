@@ -1,0 +1,5 @@
+.lib DetailedModel.mod
+.ic V(Wrap1)=0
+Vctrl Vctrl 0 3
+Vdd Vdd 0 3
+.tran 2u

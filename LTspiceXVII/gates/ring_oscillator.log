@@ -1,0 +1,32 @@
+Circuit: * C:\Users\RJ\Documents\LTspiceXVII\gates\ring_oscillator.asc
+
+Warning: Multiple definitions of model "cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "cd4007" Type: Mos1
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Feb 16 10:34:11 2021
+Total elapsed time: 0.933 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 23552
+traniter = 23536
+tranpoints = 8617
+accept = 5955
+rejected = 2662
+matrix size = 70
+fillins = 60
+solver = Normal
+Thread vector: 54.1/44.4[4] 9.5/7.5[4] 3.3/3.0[1] 0.4/3.6[1]  2592/500
+Matrix Compiler1: 9.39 KB object code size  1.8/1.0/[0.6]
+Matrix Compiler2: 9.19 KB object code size  0.9/1.1/[0.5]
+

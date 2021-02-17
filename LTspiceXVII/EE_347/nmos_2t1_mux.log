@@ -1,0 +1,46 @@
+Circuit: * C:\Users\RJ\Documents\LTspiceXVII\EE_347\nmos_2t1_mux.asc
+
+Model "invbuf2:nmod1": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "m:invbuf2:4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:invbuf2:4": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:invbuf2:3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:invbuf2:3": Width narrower than recommended for a level 1 MOSFET.
+Model "invbuf2:pmod1": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "m:invbuf2:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:invbuf2:2": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:invbuf2:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:invbuf2:1": Width narrower than recommended for a level 1 MOSFET.
+Model "nmod1": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "m2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m2": Width narrower than recommended for a level 1 MOSFET.
+Instance "m1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m1": Width narrower than recommended for a level 1 MOSFET.
+Model "invbuf1:nmod1": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "m:invbuf1:4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:invbuf1:4": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:invbuf1:3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:invbuf1:3": Width narrower than recommended for a level 1 MOSFET.
+Model "invbuf1:pmod1": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "m:invbuf1:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:invbuf1:2": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:invbuf1:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:invbuf1:1": Width narrower than recommended for a level 1 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Feb 09 17:42:52 2021
+Total elapsed time: 0.158 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3784
+traniter = 3775
+tranpoints = 1652
+accept = 1514
+rejected = 138
+matrix size = 33
+fillins = 2
+solver = Normal
+Matrix Compiler1: 2.58 KB object code size  0.4/0.2/[0.2]
+Matrix Compiler2: 3.18 KB object code size  0.3/0.3/[0.2]
+
