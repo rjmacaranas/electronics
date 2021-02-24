@@ -1,5 +1,5 @@
 .lib DetailedModel.mod
 .ic V(Wrap1)=0
-Vctrl Vctrl 0 .870
-Vdd Vdd 0 .870
-.tran 2u
+Vctrl Vctrl 0 PWL(0 .725 15m .775 17.5m .825 18m .875 18.5m .925 19m .975 19.5m 1.2)
+Vdd Vdd 0 5
+.tran 20m
