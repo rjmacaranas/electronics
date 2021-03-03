@@ -1,0 +1,21 @@
+Circuit: * C:\Users\RJ\Documents\LTspiceXVII\EE_347\TTL_inverter_with_active_pullup_6_1.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Mon Mar 01 13:29:37 2021
+Total elapsed time: 0.104 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 6129
+traniter = 6104
+tranpoints = 2312
+accept = 2013
+rejected = 299
+matrix size = 11
+fillins = 2
+solver = Normal
+Matrix Compiler1: 770 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 983 bytes object code size  0.1/0.1/[0.1]
+
